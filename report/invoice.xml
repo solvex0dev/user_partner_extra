@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="add_extra_field_to_invoic"  inherit_id="account.report_invoice_document">
+    <xpath expr="//div[@class='page']" position="before">
+        N.I.S: 
+        <field name="partner_nis"/>
+        N.I.F: 
+        <field name="partner_nif"/>
+        A.I: 
+        <field name="partner_ai"/>
+    </xpath>
+</template>
+
+</odoo>

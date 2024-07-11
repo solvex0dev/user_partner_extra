@@ -11,8 +11,9 @@
     "license": "AGPL-3",
     "installable": True,
     "maintainers": [],
-    "depends": ["base","contacts"],
+    "depends": ["base","contacts","account"],
     "data": [
-        "views/res_partner.xml"
+        "views/res_partner.xml",
+        "report/invoice.xml"
         ],
 }
