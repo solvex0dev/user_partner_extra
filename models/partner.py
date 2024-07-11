@@ -11,4 +11,5 @@ class ResPartnerCategory(models.Model):
     partner_nis=fields.Char("N.I.S")
     partner_nif=fields.Char("N.I.F")
     partner_ai=fields.Char("A.I")
+    partner_rc=fields.Char("R.C")
     

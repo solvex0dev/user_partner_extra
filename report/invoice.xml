@@ -9,6 +9,8 @@
         <span t-if="o.partner_id" t-esc="o.partner_id.partner_nif"/>
         A.I: 
         <span t-if="o.partner_id" t-esc="o.partner_id.partner_ai"/>
+        R.C: 
+        <span t-if="o.partner_id" t-esc="o.partner_id.partner_rc"/>
     </xpath>
 </template>
 

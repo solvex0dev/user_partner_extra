@@ -13,6 +13,7 @@
                 <field name="partner_nis"></field>
                 <field name="partner_nif"></field>
                 <field name="partner_ai"></field>
+                <field name="partner_rc"></field>
                     
             </xpath>
         </field>
